@@ -27,14 +27,14 @@ Instructor : Vincenzo Coia
 | Milestone  | Tasks |
 | :------: | :---: |
 | Milestone 1.0 | [Proposal](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/blob/master/docs/proposal.md) |
-| Milestone 2.0 | [Writeup](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/blob/master/docs/m2_writeup.md) |
+| Milestone 2.0 | [Writeup](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/blob/v2.0/docs/m2_writeup.md) |
 |              | [Deployed Shiny App](https://mru4913.shinyapps.io/Mental-Health-Analysis_Vis-App/)|
 |        | [Shiny App Source Code](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/blob/master/src/app.R)|
 |Milestone 3.0|[Feedback to ellognea-ptung-mental-health](https://github.com/UBC-MDS/ellognea-ptung-mental-health/issues/31)|
 |             |[Feedback to DSCI-532-wine-data](https://github.com/UBC-MDS/DSCI-532-wine-data/issues/10)|
-|             |[Writeup](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/blob/master/docs/m3_writeup.md)|
+|             |[Writeup](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/blob/v3.0/docs/m3_writeup.md)|
 |             |[Deployed Shiny App(2.0)](https://mru4913.shinyapps.io/Mental-Health-Analysis_Vis-App/)|
-|Milestone 4.0|[Writeup](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/blob/master/docs/m4_writeup.md)|
+|Milestone 4.0|[Writeup](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/blob/v4.0/docs/m4_writeup.md)|
 |             |[Deployed Shiny App(2.1)](https://mru4913.shinyapps.io/Mental-Health-Analysis_Vis-App/)|
 
 # Data
