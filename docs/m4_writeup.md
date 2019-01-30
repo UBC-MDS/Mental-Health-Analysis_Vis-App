@@ -15,7 +15,7 @@ During the last milestone project, we have made a great improvement in our shiny
 <img src="../imgs/change6.png" height="300" alt="table"/>
 </div>
 
-Rationale: the previous version of the summary is plain-data-focused. It is hard for non-technical users to understand. The new version of **Data Frame Summary** increases readability as well as offers more tabular visualization, which is more friendly to the general public.
+The previous version of the summary is plain-data-focused. It is hard for non-technical users to understand. The new version of **Data Frame Summary** increases readability as well as offers more tabular visualization, which is more friendly to the general public.
 
 
 #### 2.2 Add notes on variable names.
@@ -33,7 +33,7 @@ Even though we hide the variable selections in the pie chart display, it was sti
 <img src="../imgs/change2.png" width="350" height="200" alt="table"/>
 </div>
 
-Because users can choose either data table view or summary view, the “Download as CSV” may lead to some confusions which view is available for downloading. We changed the button label to “Download Raw Data as CSV” to clarify that only the survey result raw data can be saved as CSV.
+Because users can choose either data table view or summary view, the “Download as CSV” may lead to some confusion about which view is available for downloading. We changed the button label to “Download Raw Data as CSV” to clarify that only the survey result raw data can be saved as CSV.
 
 
 #### 2.4 Change "More info" to "project source/project home".
@@ -59,7 +59,7 @@ To make our Shiny App even more user-friendly, we replaced the ggplot2 default c
 <img src="../imgs/change7.png" width="400" height="200" alt="table"/>
 </div>
 
-As per TA suggested, we removed the material switch as it is more or less redundant in our case.
+As per what TA suggested, we removed the material switch as it is more or less redundant in our case.
 
 
 #### 2.7 Replace the warming message to a pop-up Shiny Alert.
@@ -68,7 +68,7 @@ As per TA suggested, we removed the material switch as it is more or less redund
 <img src="../imgs/change8.png" width="400" height="200" alt="table"/>
 </div>
 
-In our previous version, the warning message is displayed at the right bottom of the dashboard for only 1.5 seconds. In our newest update, we implemented a Shiny Alert in the middle of the page with 3 seconds duration. The bigger size and the better position allows users to be more alert that they need to change their invalid data selections.
+In our previous version, the warning message is displayed at the right bottom of the dashboard for only 2 seconds. In our newest update, we implemented a Shiny Alert in the middle of the page with 1.5 seconds duration. The bigger size and the better position allows users to be more alert that they need to change their invalid data selections.
 
 #### 2.8 Change font to avoid overlap with bar plot.
 
@@ -90,9 +90,9 @@ During a focus group test, we noticed that users don’t know how to use the “
 
 ## 3.0 If you were to make the app again from scratch, what would you do differently?
 
-We probably would choose another data set. This survey dataset only has categorical data that have little varieties. Suppose we choose a dataset with a time series component (we only have time stamps of the survey taken time, it make no sense to plot a timeline), we would be able to include visualization diversity into our app.
+We probably would choose another dataset. This survey dataset only has categorical data so that it has little varieties. Suppose we choose a dataset with a time series component (we only have time stamps of the survey taken time, it make no sense to plot a timeline), we would be able to include visualization diversity into our app, like a line chart.
 
-Shiny is fast to learn, easy to deploy, we wish to use other languages like HTML, CSS, and Javascript to create our app next time. That way, we have more freedom and flexibility. It might be even more time consuming though.
+Shiny is fast to learn, easy to deploy, we wish to use other languages like HTML, CSS, and JavaScript to create our app next time. In that way, we have more flexibility to customize the esthetic of our App. It might be even more time consuming though.
 
 
 ## 4.0 What were the greatest challenges you faced in creating the final product?
@@ -103,7 +103,7 @@ We would like to make our app more interactive. We really love the Shiny Alert p
 
 If time allows, we may design our app based on shinydashboard Plus.
 
-The compatibility between ploty and ggplot2 was an issue. Plotly can’t render subtitle or captions from ggplot2. This limit us regarding what and where we'd place our graph. With better compatibility, we would be able to increase the margin between th graph title and the graph, adding side notes to explain the graph etc. 
+The compatibility between Plotly and ggplot2 was an issue. Plotly can’t render subtitle or captions from ggplot2. This limits us regarding what and where we'd place in our graph. With better compatibility, we would be able to increase the margin between th graph title and the graph, adding side notes to explain the graph etc. 
 
 Overall, we are happy with what we have developed within such a short time frame. 
 

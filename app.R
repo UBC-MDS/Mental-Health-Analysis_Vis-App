@@ -4,8 +4,7 @@
 ## Project: 
 ## Date: 
 ## Author: Chao Wange [cre] and Mengda (Albert) Yu [aut cre]
-## Script purpose: The scripts of shiny App
-##  
+## Script purpose: The scripts of Mental Health Programs Effectiveness App
 ##
 ##################################################
 
@@ -88,7 +87,7 @@ ui <- dashboardPage(
                        box(
                          width = 13, status = "primary", solidHeader = TRUE, 
                          title = "Graphs",
-                         plotlyOutput("row_1_l"),
+                         plotlyOutput("myPlotOutput"),
                          br(),
                          br(),
                          br(),
@@ -352,7 +351,7 @@ server <- function(input, output) {
   })
   
   # render the plot 
-  output$row_1_l <- renderPlotly({
+  output$myPlotOutput <- renderPlotly({
     if (!is.null(input$radioBarPosition)){
       
       if(input$radioGraphType == "pie"){
