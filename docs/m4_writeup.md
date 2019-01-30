@@ -65,7 +65,7 @@ We removed the material switch as it is more or less redundant in our case.
 #### 2.7 Replace the warming message to a pop-up Shiny Alert.
 
 <div align="center">
-<img src="../imgs/change8.png" width="400" height="200" alt="table"/>
+<img src="../imgs/change8.png" width="450" height="200" alt="table"/>
 </div>
 
 In our previous version, the warning message is displayed at the right bottom of the dashboard for only 2 seconds. In our newest update, we implemented a Shiny Alert in the middle of the page with 1.5 seconds duration. The bigger size and the better position allows users to be more alert that they need to change their invalid data selections.
