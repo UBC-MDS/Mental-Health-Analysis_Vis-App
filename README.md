@@ -25,7 +25,7 @@ Instructor : Vincenzo Coia
 # Milestone Progress
 
 | Milestone  | Tasks |
-| :------: | :---: |
+| ------ | --- |
 | Milestone 1.0 | [Proposal](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/blob/master/docs/proposal.md) |
 | Milestone 2.0 | [Writeup](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/blob/v2.0/docs/m2_writeup.md) |
 |              | [Deployed Shiny App](https://mru4913.shinyapps.io/Mental-Health-Analysis_Vis-App/)|
