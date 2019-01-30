@@ -59,7 +59,7 @@ To make our Shiny App even more user-friendly, we replaced the ggplot2 default c
 <img src="../imgs/change7.png" width="400" height="200" alt="table"/>
 </div>
 
-As per what TA suggested, we removed the material switch as it is more or less redundant in our case.
+We removed the material switch as it is more or less redundant in our case.
 
 
 #### 2.7 Replace the warming message to a pop-up Shiny Alert.
